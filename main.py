@@ -2,7 +2,7 @@
 # Read it again
 # Your code here
 # Delete these 4 lines of comments
-package_type = input('Enter package type: ')
+package_type = input('Enter package type green, blue, or purple: ')
 if package_type == ('green'):
     monthly_payment = 49.99
     provided_data = 2
@@ -26,7 +26,5 @@ if package_type == ('green') and monthly_payment >= 75:
     coupon = input('Do you have a coupon?: ')
     if coupon == 'yes':
         monthly_payment = monthly_payment - 20
-
-
-print(monthly_payment)
+print(f'Your monthly payment is {monthly_payment:.2f} dollars.')
 
