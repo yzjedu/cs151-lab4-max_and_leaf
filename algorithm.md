@@ -19,10 +19,11 @@
     1. request the amount of used data expressed in gigabytes from the user 
    2. calculate the difference between the used data and the provided data
    3. if the difference is greater than 0
-        1. set the monthly payment to (monthly payment + (difference * cost of extra data))
-   4. if the package is green AND monthly payment is greater than or equal to 75
-        1. While the
-      2. Request a yes or no response from the user as to whether or not they have a coupon
-      3. if response is yes
-
+   4. set the monthly payment to (monthly payment + (difference * cost of extra data))
+9. if the package is green AND monthly payment is greater than or equal to 75
+   1. Request a yes or no response from the user as to whether or not they have a coupon
+   2. if response is yes subtract 20 from monthly payment
+10. output monthly payment
+      
+      
     
