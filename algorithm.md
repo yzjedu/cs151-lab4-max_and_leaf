@@ -1,7 +1,7 @@
 # Algorithm Document
 
 1. Request package type from user (Green, Blue, or Purple) 
-2. convert to lowercase
+2. convert package type to lowercase
 3. While the package is not currently set to green, blue, or purple, run through steps 4-7
 4. If package is green: 
    1. set monthly payment to 49.99
@@ -22,7 +22,8 @@
    4. set the monthly payment to (monthly payment + (difference * cost of extra data))
 9. if the package is green AND monthly payment is greater than or equal to 75
    1. Request a yes or no response from the user as to whether or not they have a coupon
-   2. if response is yes subtract 20 from monthly payment
+   2. convert answer to lowercase
+   3. if response is yes subtract 20 from monthly payment
 10. output monthly payment
       
       

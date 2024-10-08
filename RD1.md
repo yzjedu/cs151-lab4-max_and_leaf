@@ -16,7 +16,7 @@
 - I do think I learned what I was supposed to from this lab. I learned how to store information in variables and then use those variable to do calculations
 - This lab made me more confident in using more complex equations in my math so I feel now my programs can be more effective.
 - Working with Leaf went well during the lab, there was not as much communication as there was with my previous labs and it was diffcult
-- contacting him online but overall we did discuss in lab the project and how we should go about creating the program.
+- but overall we did discuss in lab the project and how we should go about creating the program.
 
 
 
